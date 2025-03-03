@@ -40,9 +40,6 @@ class Home(tk.Frame):
         tk.Label(self, text="Walltell Template", background='black', foreground='gold',
                  font=("Ebrima", 30, 'bold')).place(x=340, y=20)
 
-        tk.Button(self, text="Quit", command=controller.quit, height=2, width=5,
-                  background='red', foreground='gold').place(x=955, y=1)
-
         buttons = [
             ("Page 1", Page1, 125),
             ("Page 2", Page2, 200),
